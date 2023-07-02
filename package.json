@@ -1,0 +1,27 @@
+{
+  "name": "routing-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./libs/app.ts"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "zhangxiao",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.10.4",
+    "ts-node": "^10.9.1",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
