@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./libs/app.ts"
+    "start": "ts-node ./libs/app.ts",
+    "db":"cd libs && cd prisma && npx prisma migrate dev --name init "
   },
   "keywords": [
     "[]"
@@ -16,6 +17,7 @@
     "@prisma/client": "^4.16.2",
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
+    "prisma": "^5.1.1",
     "reflect-metadata": "^0.1.13",
     "routing-controllers": "^0.10.4",
     "ts-node": "^10.9.1",
